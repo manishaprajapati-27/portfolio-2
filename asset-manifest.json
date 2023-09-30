@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio-2/static/css/main.fc77aa8f.css",
+    "main.js": "/portfolio-2/static/js/main.7acf35a5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio-2/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio-1.jpg": "/portfolio-2/static/media/portfolio-1.4c8c1f37d4ad5e1482de.jpg",
+    "static/media/landing.jpg": "/portfolio-2/static/media/landing.3a3a814160b2e467c59e.jpg",
+    "static/media/real-esate.jpg": "/portfolio-2/static/media/real-esate.73a63af9f58530d4201e.jpg",
+    "static/media/ice-cream-shop.png": "/portfolio-2/static/media/ice-cream-shop.e9a87e0a98fa1eacf395.png",
+    "static/media/footer.jpg": "/portfolio-2/static/media/footer.e63c35dc39332dc43009.jpg",
+    "static/media/skew-hero.png": "/portfolio-2/static/media/skew-hero.6fc58b51e01f9190da56.png",
+    "static/media/ecommerce-web.png": "/portfolio-2/static/media/ecommerce-web.fdb9fb4f2470535fb10e.png",
+    "static/media/hero.png": "/portfolio-2/static/media/hero.7692ede45624ee5550b3.png",
+    "static/media/about.jpg": "/portfolio-2/static/media/about.a6506a3d3f927d350494.jpg",
+    "static/media/dashboard.png": "/portfolio-2/static/media/dashboard.32d32deccb3d0096048f.png",
+    "static/media/kids-zone.png": "/portfolio-2/static/media/kids-zone.44a2573e300da86eea26.png",
+    "static/media/python.png": "/portfolio-2/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/bootstrap.png": "/portfolio-2/static/media/bootstrap.5f72dd2be461951e26f2.png",
+    "static/media/html.png": "/portfolio-2/static/media/html.136d498adef15867333b.png",
+    "static/media/sass.png": "/portfolio-2/static/media/sass.ab1f30eb8120111cf614.png",
+    "static/media/django.png": "/portfolio-2/static/media/django.a255e7f94660c1b3e696.png",
+    "static/media/js.png": "/portfolio-2/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/portfolio-2/index.html",
+    "main.fc77aa8f.css.map": "/portfolio-2/static/css/main.fc77aa8f.css.map",
+    "main.7acf35a5.js.map": "/portfolio-2/static/js/main.7acf35a5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio-2/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc77aa8f.css",
+    "static/js/main.7acf35a5.js"
+  ]
+}
