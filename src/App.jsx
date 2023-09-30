@@ -13,7 +13,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route Component={Home} path="/" exact />
+        <Route Component={Home} path="/" />
         <Route Component={About} path="/about" />
         <Route Component={Contact} path="/contact" />
         <Route Component={Work} path="/work" />
