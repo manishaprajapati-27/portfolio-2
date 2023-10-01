@@ -1,8 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { motion, useScroll } from "framer-motion";
-import { FaChevronRight } from "react-icons/fa";
+import { motion } from "framer-motion";
 import { aboutImage } from "../../constants/images";
 
 const AboutSection = () => {

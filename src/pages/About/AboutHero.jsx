@@ -2,11 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import HeroImage from "../../assets/images/hero/hero.png";
 import SkewImage from "../../assets/images/hero/skew-hero.png";
-// import SkewImage from "../../assets/images/hero/skew.png";
-// import SkewImage from "../../assets/images/hero/hero-skew-quadrilateral.png";
-// import Quadrilateral1 from "../../assets/images/hero/quadrilateral-1.png";
-// import Quadrilateral2 from "../../assets/images/hero/quadrilateral-2.png";
-import { type } from "@testing-library/user-event/dist/type";
 
 const AboutHero = () => {
   return (

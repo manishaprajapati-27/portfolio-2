@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaFacebookF,
   FaRegEnvelope,
   FaInstagram,
-  FaGithub,
   FaLinkedinIn,
   FaEnvelopeOpen,
 } from "react-icons/fa";
-import { FiGithub, FiLink } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
   const pageStart = () => {
