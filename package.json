@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://manishaprajapati-27.github.io/portfolio-2",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@sanity/block-content-to-react": "^3.0.0",
