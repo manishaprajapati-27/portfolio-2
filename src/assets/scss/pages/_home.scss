@@ -262,8 +262,7 @@
       transition: 0.8s all ease;
 
       @media (max-width: v.$lg-breakpoint) {
-        bottom: 14px;
-        left: 14px;
+        padding: 5px 15px;
       }
 
       h4 {
@@ -340,8 +339,16 @@
       margin-bottom: 15px;
       height: 220px;
 
+      @media (max-width: v.$md-breakpoint) {
+      }
+
       img {
         transition: 0.5s all ease;
+
+        @media (max-width: v.$lg-breakpoint) {
+          height: auto;
+          border-radius: 10px;
+        }
       }
     }
 
@@ -365,12 +372,17 @@
         margin-bottom: 10px;
         opacity: 0.7;
         transition: 0.5s all ease;
+
+        @media (max-width: v.$sm-breakpoint) {
+          font-size: 14px;
+          font-weight: 300;
+        }
       }
 
       .link-btns {
         @include m.d-flex(flex-start, flex-start, nowrap, 10px);
         position: absolute;
-        top: 0px;
+        top: 0;
         right: 0;
 
         .arrow {

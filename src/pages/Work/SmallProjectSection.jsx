@@ -25,7 +25,7 @@ const SmallProjectSection = () => {
                 <img src={RealEsate} alt="" />
               </div>
               <div className="text">
-                <h3>Real Estate Web Page</h3>
+                <h3>Real Estate</h3>
                 <h5>Website Design</h5>
                 <div className="link-btns">
                   <Link

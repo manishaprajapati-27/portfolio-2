@@ -7,7 +7,7 @@ const AboutHero = () => {
   return (
     <section className="hero about-hero">
       <div className="hero-image">
-        <img src={HeroImage} />
+        <img src={HeroImage} alt="About Hero" />
       </div>
       {/* <div className="patterns">
         <motion.div
@@ -33,7 +33,7 @@ const AboutHero = () => {
         initial={{ x: 80, opacity: 0 }}
         transition={{ type: "tween", duration: 1, delay: 0 }}
       >
-        <img src={SkewImage} />
+        <img src={SkewImage} alt="Skew Pattern" />
       </motion.div>
       <div className="text">
         <motion.h5

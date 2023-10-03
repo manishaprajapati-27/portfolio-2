@@ -53,7 +53,7 @@ const AboutSection = () => {
                 // whileInView={{ scale: 1, opacity: 1 }}
                 // transition={{ duration: 0.7, delay: 0.7 }}
               >
-                <img src={aboutImage} />
+                <img src={aboutImage} alt="Me Manisha" />
               </motion.div>
             </div>
           </div>
