@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link, NavLink } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 import { logo } from "../constants/images";
+import { resume } from "../constants/files";
 
 export default function Navbar() {
   const [navToggle, setNavToggle] = useState(false);
@@ -11,9 +12,9 @@ export default function Navbar() {
     setNavToggle(!navToggle);
   };
 
-  const pageStart = () => {
-    window.scrollTo(1, 1);
-  };
+  //   const pageStart = () => {
+  //     window.scrollTo(1, 1);
+  //   };
 
   return (
     <motion.header
@@ -48,8 +49,13 @@ export default function Navbar() {
             <NavLink to="/contact" className="nav-link">
               Contact
             </NavLink>
-            <Link to="/contact" onClick={pageStart} className="button ms-lg-2">
-              Let's Talk
+            <Link
+              to={resume}
+              target="_blank"
+              className="button ms-lg-2"
+              download="Manisha-Prajapati-Resume.pdf"
+            >
+              <FaDownload /> Resume
             </Link>
           </div>
         </nav>

@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FiGithub, FiLink } from "react-icons/fi";
-import { FaChevronRight } from "react-icons/fa";
 import { RealEsate, PortFolio1, Landing } from "../../constants/images";
 
 const SmallProjectSection = () => {
-  const pageStart = () => {
-    window.scrollTo(1, 1);
-  };
+  //   const pageStart = () => {
+  //     window.scrollTo(1, 1);
+  //   };
 
   return (
     <section className="section small-project">
@@ -109,18 +108,6 @@ const SmallProjectSection = () => {
             </div>
           </div>
         </div>
-
-        <Link
-          to="/work"
-          onClick={pageStart}
-          type="button"
-          className="button-arrow mt-2"
-        >
-          <span>See All</span>
-          <span className="icon">
-            <FaChevronRight />
-          </span>
-        </Link>
       </div>
     </section>
   );
