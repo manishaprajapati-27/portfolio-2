@@ -2,6 +2,7 @@ import React from "react";
 import WorkHero from "./WorkHero";
 import ProjectSecition from "./ProjectSecition";
 import SmallProjectSection from "./SmallProjectSection";
+import OfficeProjects from "./OfficeProjects";
 
 const Work = () => {
   return (
@@ -9,6 +10,7 @@ const Work = () => {
       <WorkHero />
       <ProjectSecition />
       <SmallProjectSection />
+      <OfficeProjects />
     </div>
   );
 };

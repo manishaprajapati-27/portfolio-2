@@ -11,6 +11,9 @@ export default function Navbar() {
   const togglerFunction = () => {
     setNavToggle(!navToggle);
   };
+  const closeNav = () => {
+    setNavToggle(false);
+  };
 
   //   const pageStart = () => {
   //     window.scrollTo(1, 1);
@@ -34,19 +37,19 @@ export default function Navbar() {
           <div
             className={navToggle ? "navbar-nav navbar-active" : "navbar-nav"}
           >
-            <NavLink to="/" className="nav-link" exact>
+            <NavLink to="/" className="nav-link" onClick={closeNav} exact>
               Home
             </NavLink>
-            <NavLink to="/about" className="nav-link">
+            <NavLink to="/about" className="nav-link" onClick={closeNav}>
               About
             </NavLink>
-            <NavLink to="/work" className="nav-link">
+            <NavLink to="/work" className="nav-link" onClick={closeNav}>
               Work
             </NavLink>
-            {/* <NavLink to="/post" className="nav-link">
+            {/* <NavLink to="/post" className="nav-link" onClick={closeNav}>
               Blog Post
             </NavLink> */}
-            <NavLink to="/contact" className="nav-link">
+            <NavLink to="/contact" className="nav-link" onClick={closeNav}>
               Contact
             </NavLink>
             <Link

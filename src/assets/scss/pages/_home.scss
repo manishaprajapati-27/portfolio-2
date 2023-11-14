@@ -259,6 +259,7 @@
       left: 0;
       padding: 25px;
       opacity: 0;
+      width: 100%;
       transition: 0.8s all ease;
 
       @media (max-width: v.$lg-breakpoint) {
@@ -339,10 +340,13 @@
       margin-bottom: 15px;
       height: 220px;
 
-      @media (max-width: v.$md-breakpoint) {
-      }
+      //   @media (max-width: v.$md-breakpoint) {
+      //   }
 
       img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
         transition: 0.5s all ease;
 
         @media (max-width: v.$lg-breakpoint) {

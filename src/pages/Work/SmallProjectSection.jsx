@@ -9,7 +9,7 @@ const SmallProjectSection = () => {
   //   };
 
   return (
-    <section className="section small-project">
+    <section className="section small-project pb-0">
       <div className="container">
         <h5 className="sub-heading mb-1">
           Some Projects <span></span>
@@ -21,11 +21,11 @@ const SmallProjectSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
-                <img src={RealEsate} alt="" />
+                <img src={RealEsate} alt="Real Estate" />
               </div>
               <div className="text">
                 <h3>Real Estate</h3>
-                <h5>Website Design</h5>
+                <h5>Website Design & Develope</h5>
                 <div className="link-btns">
                   <Link
                     to="https://manishaprajapati-27.github.io/real-estate-webpage/"
@@ -52,11 +52,11 @@ const SmallProjectSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
-                <img src={Landing} alt="" />
+                <img src={Landing} alt="Landing Page" />
               </div>
               <div className="text">
                 <h3>Landing Page</h3>
-                <h5>Website Design</h5>
+                <h5>Website Design & Develope</h5>
                 <div className="link-btns">
                   {/* <Link to="#" target="_blank" className="arrow">
                     <FiLink />
@@ -79,11 +79,11 @@ const SmallProjectSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
-                <img src={PortFolio1} alt="" />
+                <img src={PortFolio1} alt="Portfolio 1" />
               </div>
               <div className="text">
                 <h3>Portfolio 1</h3>
-                <h5>Website Design</h5>
+                <h5>Website Design & Develope</h5>
                 <div className="link-btns">
                   <Link
                     to="https://manishaprajapati-27.github.io/portfolio-1/"
