@@ -24,6 +24,7 @@ import Estate from "../assets/images/office-project/estate-harbor.jpg";
 import Carmel from "../assets/images/office-project/carmel-maritime.jpg";
 import Venue from "../assets/images/office-project/the-venue.jpg";
 import Venus from "../assets/images/office-project/venus-hospital.png";
+import BizMLM from "../assets/images/office-project/biz-mlm.jpg";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -54,6 +55,7 @@ export {
   Estate,
   Venue,
   Venus,
+  BizMLM,
   html,
   css,
   js,

@@ -338,7 +338,7 @@
       border-radius: 10px;
       overflow: hidden;
       margin-bottom: 15px;
-      height: 220px;
+      height: 200px;
 
       //   @media (max-width: v.$md-breakpoint) {
       //   }
@@ -349,10 +349,10 @@
         object-position: center;
         transition: 0.5s all ease;
 
-        @media (max-width: v.$lg-breakpoint) {
-          height: auto;
-          border-radius: 10px;
-        }
+        // @media (max-width: v.$lg-breakpoint) {
+        //   height: auto;
+        //   border-radius: 10px;
+        // }
       }
     }
 
