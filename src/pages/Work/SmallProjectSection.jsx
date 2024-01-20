@@ -35,7 +35,7 @@ const SmallProjectSection = () => {
                     <FiLink />
                   </Link>
                   <Link
-                    to="https://github.com/ManishaPrajapati-27/real-estate-webpage.git"
+                    to="https://github.com/manishaprajapati-27/real-estate-webpage.git"
                     className="arrow"
                     target="_blank"
                   >
@@ -62,7 +62,7 @@ const SmallProjectSection = () => {
                     <FiLink />
                   </Link> */}
                   <Link
-                    to="https://github.com/ManishaPrajapati-27/landing-page.git"
+                    to="https://github.com/manishaprajapati-27/landing-page.git"
                     target="_blank"
                     className="arrow"
                   >
@@ -93,7 +93,7 @@ const SmallProjectSection = () => {
                     <FiLink />
                   </Link>
                   <Link
-                    to="https://github.com/ManishaPrajapati-27/portfolio-1.git"
+                    to="https://github.com/manishaprajapati-27/portfolio-1.git"
                     target="_blank"
                     className="arrow"
                   >

@@ -43,7 +43,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/ice-cream-shop.git"
+                        to="https://github.com/manishaprajapati-27/ice-cream-shop.git"
                         target="_blank"
                       >
                         <FiGithub />
@@ -80,7 +80,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/dashboard.git"
+                        to="https://github.com/manishaprajapati-27/dashboard.git"
                         target="_blank"
                       >
                         <FiGithub />
@@ -118,7 +118,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/ecommerce-app-django.git"
+                        to="https://github.com/manishaprajapati-27/ecommerce-app-django.git"
                         target="_blank"
                       >
                         <FiGithub />
@@ -147,7 +147,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/kids-school.git"
+                        to="https://github.com/manishaprajapati-27/kids-school.git"
                         target="_blank"
                       >
                         <FiGithub />
@@ -187,7 +187,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/game-sky.git"
+                        to="https://github.com/manishaprajapati-27/game-sky.git"
                         target="_blank"
                       >
                         <FiGithub />
@@ -224,7 +224,7 @@ const ProjectSecition = () => {
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/ManishaPrajapati-27/music-player-react.git"
+                        to="https://github.com/manishaprajapati-27/music-player-react.git"
                         target="_blank"
                       >
                         <FiGithub />
