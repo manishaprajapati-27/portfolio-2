@@ -60,12 +60,12 @@ const Footer = () => {
                 {/* <a href="#">
                   <FaFacebookF />
                 </a> */}
-                <Link
+                {/* <Link
                   to="https://www.instagram.com/manishaprajapati492/"
                   target="_blank"
                 >
                   <FaInstagram />
-                </Link>
+                </Link> */}
                 <Link
                   to="https://github.com/ManishaPrajapati-27/"
                   target="_blank"
