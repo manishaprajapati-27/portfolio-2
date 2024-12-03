@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelopeOpen, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelopeOpen, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { IoIosSend } from "react-icons/io";
 
@@ -52,7 +52,7 @@ const ContactSection = () => {
                   <FaInstagram />
                 </Link> */}
                 <Link
-                  to="https://github.com/ManishaPrajapati-27/"
+                  to="https://github.com/manishaprajapati-27/"
                   target="_blank"
                 >
                   <FiGithub />

@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FiLink } from "react-icons/fi";
-import { Estate, Carmel, Venue, Venus, BizMLM } from "../../constants/images";
+import {
+  Estate,
+  Carmel,
+  Venue,
+  Venus,
+  BizMLM,
+  Cprompt,
+} from "../../constants/images";
 
 const OfficeProjects = () => {
   //   const pageStart = () => {
@@ -109,6 +116,26 @@ const OfficeProjects = () => {
                 <div className="link-btns">
                   <Link
                     to="https://bizmlm.in/"
+                    target="_blank"
+                    className="arrow"
+                  >
+                    <FiLink />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="card">
+              <div className="image">
+                <img src={Cprompt} alt="C Prompt Solutions" />
+              </div>
+              <div className="text">
+                <h3>C Prompt Solutions</h3>
+                <h5>Website Develope</h5>
+                <div className="link-btns">
+                  <Link
+                    to="https://www.cpromptsolutions.in/"
                     target="_blank"
                     className="arrow"
                   >

@@ -6,8 +6,6 @@ import {
   css,
   js,
   figma,
-  python,
-  django,
   bootstrap,
   react,
   sass,
@@ -95,7 +93,30 @@ const AboutSkillsInformation = () => {
                   </div>
                   <div className="col-10">
                     <div className="info">
-                      <h5>June 2023 - Present</h5>
+                      <h5>January 2024 - Present</h5>
+                      <h4>DiigiiHost</h4>
+                      <p>
+                        Managed website maintenance and front-end development to
+                        ensure seamless user experiences, collaborated with
+                        senior executives to strategize and achieve project
+                        goals, led team discussions, delegated tasks, and acted
+                        as the primary point of contact for front-end
+                        development and cross-functional coordination to ensure
+                        timely project delivery.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr className="my-2" />
+                <div className="row">
+                  <div className="col-2">
+                    <div className="icon">
+                      <FiBook />
+                    </div>
+                  </div>
+                  <div className="col-10">
+                    <div className="info">
+                      <h5>June 2023 - January 2024</h5>
                       <h4>Biz Technology IT Solutions Limited</h4>
                       <p>
                         My Job Role in this company is Web designer and
@@ -136,8 +157,8 @@ const AboutSkillsInformation = () => {
                   <img src={js} alt="JavaScript" title="JavaScript" />
                   <img src={sass} alt="SASS" title="SASS" />
                   <img src={figma} alt="Figma" title="Figma" />
-                  <img src={python} alt="Python" title="Python" />
-                  <img src={django} alt="Django" title="Django" />
+                  {/* <img src={python} alt="Python" title="Python" /> */}
+                  {/* <img src={django} alt="Django" title="Django" /> */}
                   <img src={react} alt="React" title="React" />
                   <img src={bootstrap} alt="Boostrap" title="Boostrap" />
                 </div>

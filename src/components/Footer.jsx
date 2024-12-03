@@ -1,11 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  FaRegEnvelope,
-  FaInstagram,
-  FaLinkedinIn,
-  FaEnvelopeOpen,
-} from "react-icons/fa";
+import { FaRegEnvelope, FaLinkedinIn, FaEnvelopeOpen } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
@@ -67,7 +62,7 @@ const Footer = () => {
                   <FaInstagram />
                 </Link> */}
                 <Link
-                  to="https://github.com/ManishaPrajapati-27/"
+                  to="https://github.com/manishaprajapati-27/"
                   target="_blank"
                 >
                   <FiGithub />

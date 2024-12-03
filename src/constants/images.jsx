@@ -25,6 +25,7 @@ import Carmel from "../assets/images/office-project/carmel-maritime.jpg";
 import Venue from "../assets/images/office-project/the-venue.jpg";
 import Venus from "../assets/images/office-project/venus-hospital.png";
 import BizMLM from "../assets/images/office-project/biz-mlm.jpg";
+import Cprompt from "../assets/images/office-project/c-prompt.webp";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -56,6 +57,7 @@ export {
   Venue,
   Venus,
   BizMLM,
+  Cprompt,
   html,
   css,
   js,
