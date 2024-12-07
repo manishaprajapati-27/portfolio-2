@@ -121,8 +121,9 @@ const AboutSkillsInformation = () => {
                       <p>
                         My Job Role in this company is Web designer and
                         developer. In this company, I create websites. I
-                        maintain and creates website and dashboard as per
-                        client's requirements.
+                        maintain and build websites and dashboards according to
+                        the client's requirements. I Collaborate with backend
+                        developers and develop designs.
                       </p>
                     </div>
                   </div>
@@ -139,10 +140,11 @@ const AboutSkillsInformation = () => {
                       <h5>September 2022 - June 2023</h5>
                       <h4>Parasight Solutions</h4>
                       <p>
-                        It's my first job as a Website Designer. In this
+                        It was my first job as a Website Designer. In this
                         company, I learned some new tools. My work in this
-                        company is to create layouts in Figma and Develop them
-                        into HTML, CSS & JS.
+                        company was to create layouts in Figma and Develop them
+                        into HTML, CSS, and JS. I also collaborated with backend
+                        developers to develop and maintain designs.
                       </p>
                     </div>
                   </div>
