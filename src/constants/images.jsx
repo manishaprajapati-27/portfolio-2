@@ -6,7 +6,7 @@ import heroImage from "../assets/images/hero/hero.png";
 import skewImage from "../assets/images/hero/skew-hero.png";
 
 // About
-import aboutImage from "../assets/images/about/about.jpg";
+import aboutImage from "../assets/images/about/about.jpeg";
 
 // Projects
 import IceCreamShop from "../assets/images/projects/ice-cream-shop.png";
@@ -37,6 +37,8 @@ import python from "../assets/images/skills/python.png";
 import bootstrap from "../assets/images/skills/bootstrap.png";
 import react from "../assets/images/skills/react.png";
 import sass from "../assets/images/skills/sass.png";
+import tailwind from "../assets/images/skills/tailwind.png";
+import gsap from "../assets/images/skills/gsap.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   bootstrap,
   react,
   sass,
+  tailwind,
+  gsap,
 };

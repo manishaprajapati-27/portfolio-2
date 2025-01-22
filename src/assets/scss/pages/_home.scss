@@ -157,11 +157,10 @@
     .image {
       position: relative;
       z-index: 2;
-      width: 75%;
       height: 500px;
       text-align: center;
       padding: 15px;
-      width: 55%;
+      width: 70%;
 
       &::before {
         content: "";

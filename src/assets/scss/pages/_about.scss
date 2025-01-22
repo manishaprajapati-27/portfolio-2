@@ -122,7 +122,7 @@
       .skills-logo {
         @include m.d-flex(flex-start, flex-start, wrap, 20px);
 
-        img {
+        .image {
           //   display: block;
           width: 100px;
           background: v.$dark-alt;
@@ -130,6 +130,10 @@
           border-radius: 10px;
           margin-bottom: 20px;
           cursor: pointer;
+          height: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }

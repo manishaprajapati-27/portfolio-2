@@ -9,6 +9,8 @@ import {
   bootstrap,
   react,
   sass,
+  tailwind,
+  gsap,
 } from "../../constants/images";
 
 const AboutSkillsInformation = () => {
@@ -154,15 +156,39 @@ const AboutSkillsInformation = () => {
               <div className="about-info" id="skills">
                 <h2 className="heading text-primary mb-2">Skills</h2>
                 <div className="skills-logo">
-                  <img src={html} alt="HTML" title="HTML" />
-                  <img src={css} alt="CSS" title="CSS" />
-                  <img src={js} alt="JavaScript" title="JavaScript" />
-                  <img src={sass} alt="SASS" title="SASS" />
-                  <img src={figma} alt="Figma" title="Figma" />
+                  <div className="image">
+                    <img src={html} alt="HTML" title="HTML" />
+                  </div>
+                  <div className="image">
+                    <img src={css} alt="CSS" title="CSS" />
+                  </div>
+                  <div className="image">
+                    <img src={js} alt="JavaScript" title="JavaScript" />
+                  </div>
+                  <div className="image">
+                    <img src={sass} alt="SASS" title="SASS" />
+                  </div>
+                  <div className="image">
+                    <img src={figma} alt="Figma" title="Figma" />
+                  </div>
                   {/* <img src={python} alt="Python" title="Python" /> */}
                   {/* <img src={django} alt="Django" title="Django" /> */}
-                  <img src={react} alt="React" title="React" />
-                  <img src={bootstrap} alt="Boostrap" title="Boostrap" />
+                  <div className="image">
+                    <img src={react} alt="React" title="React" />
+                  </div>
+                  <div className="image">
+                    <img src={bootstrap} alt="Boostrap" title="Boostrap" />
+                  </div>
+                  <div className="image">
+                    <img
+                      src={tailwind}
+                      alt="Tailwind CSS"
+                      title="Tailwind CSS"
+                    />
+                  </div>
+                  <div className="image">
+                    <img src={gsap} alt="GSAP" title="GSAP" />
+                  </div>
                 </div>
               </div>
             </div>
