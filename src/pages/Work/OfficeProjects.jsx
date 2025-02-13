@@ -8,6 +8,7 @@ import {
   Venus,
   BizMLM,
   Cprompt,
+  Drgaikwad,
 } from "../../constants/images";
 
 const OfficeProjects = () => {
@@ -65,7 +66,7 @@ const OfficeProjects = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          {/* <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
                 <img src={Venue} alt="The Venue" />
@@ -84,8 +85,8 @@ const OfficeProjects = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12">
+          </div> */}
+          {/* <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
                 <img src={Venus} alt="Venus Hospital" />
@@ -104,7 +105,7 @@ const OfficeProjects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
               <div className="image">
@@ -136,6 +137,26 @@ const OfficeProjects = () => {
                 <div className="link-btns">
                   <Link
                     to="https://www.cpromptsolutions.in/"
+                    target="_blank"
+                    className="arrow"
+                  >
+                    <FiLink />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="card">
+              <div className="image">
+                <img src={Drgaikwad} alt="Dr Gaikwad" />
+              </div>
+              <div className="text">
+                <h3>Dr Gaikwad</h3>
+                <h5>Website Develope</h5>
+                <div className="link-btns">
+                  <Link
+                    to="https://www.drgaikwad.com/"
                     target="_blank"
                     className="arrow"
                   >
