@@ -9,6 +9,7 @@ import {
   BizMLM,
   Cprompt,
   Drgaikwad,
+  Soupherb,
 } from "../../constants/images";
 
 const OfficeProjects = () => {
@@ -157,6 +158,26 @@ const OfficeProjects = () => {
                 <div className="link-btns">
                   <Link
                     to="https://www.drgaikwad.com/"
+                    target="_blank"
+                    className="arrow"
+                  >
+                    <FiLink />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="card">
+              <div className="image">
+                <img src={Soupherb} alt="Soupherb" />
+              </div>
+              <div className="text">
+                <h3>Soupherb</h3>
+                <h5>Website Develope</h5>
+                <div className="link-btns">
+                  <Link
+                    to="https://soupherb.org/"
                     target="_blank"
                     className="arrow"
                   >

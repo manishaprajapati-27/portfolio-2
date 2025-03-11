@@ -27,6 +27,7 @@ import Venus from "../assets/images/office-project/venus-hospital.png";
 import BizMLM from "../assets/images/office-project/biz-mlm.jpg";
 import Cprompt from "../assets/images/office-project/c-prompt.webp";
 import Drgaikwad from "../assets/images/office-project/dr-gaikwad.webp";
+import Drgaikwad from "../assets/images/office-project/soupherb.webp";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -73,4 +74,5 @@ export {
   tailwind,
   gsap,
   Drgaikwad,
+  Soupherb,
 };
