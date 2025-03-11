@@ -24,6 +24,8 @@ const AboutSection = () => {
                 design for websites that give the best experience to users. My
                 goal is to create and develop websites and applications that
                 fulfill all requirements of users.
+
+                
               </p>
               <p className="mb-2">
                 I also like to listen to songs and watch videos on YouTube.
