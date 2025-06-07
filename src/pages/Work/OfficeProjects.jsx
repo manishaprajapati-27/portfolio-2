@@ -10,13 +10,10 @@ import {
   Cprompt,
   Drgaikwad,
   Soupherb,
+  Akirhs,
 } from "../../constants/images";
 
 const OfficeProjects = () => {
-  //   const pageStart = () => {
-  //     window.scrollTo(1, 1);
-  //   };
-
   return (
     <section className="section small-project">
       <div className="container">
@@ -178,6 +175,26 @@ const OfficeProjects = () => {
                 <div className="link-btns">
                   <Link
                     to="https://soupherb.org/"
+                    target="_blank"
+                    className="arrow"
+                  >
+                    <FiLink />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="card">
+              <div className="image">
+                <img src={Akirhs} alt="Akirhs" />
+              </div>
+              <div className="text">
+                <h3>Akirhs</h3>
+                <h5>Website Develope</h5>
+                <div className="link-btns">
+                  <Link
+                    to="https://www.akirhs.com/"
                     target="_blank"
                     className="arrow"
                   >

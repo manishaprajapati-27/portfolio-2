@@ -193,11 +193,11 @@
         object-position: center;
         position: relative;
         z-index: 3;
-        filter: brightness(0.7);
+        filter: grayscale(1);
         transition: 0.5s all ease;
 
         &:hover {
-          filter: brightness(1);
+          filter: grayscale(0);
         }
       }
 

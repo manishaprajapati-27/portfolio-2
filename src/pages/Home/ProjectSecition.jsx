@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { FiGithub, FiLink } from "react-icons/fi";
 import {
   IceCreamShop,
-  KidsZone,
   Dashboard,
   EcommerceWeb,
+  GameSky,
 } from "../../constants/images";
 
 const ProjectSecition = () => {
@@ -102,9 +102,8 @@ const ProjectSecition = () => {
               <div className="text">
                 <h4>Ecommerce Website</h4>
                 <p className="mb-1">
-                  It is a Grocery shop e-commerce app. In this project, the
-                  admin adds products from the admin panel & user sees products
-                  and adds our products to the cart.
+                  An e-commerce app where the admin adds products and users can
+                  browse and add items to their cart.
                 </p>
                 <div className="d-flex justify-content-between">
                   <div className="tech-use">
@@ -130,35 +129,35 @@ const ProjectSecition = () => {
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="project-info">
               <div className="image">
-                <img src={KidsZone} alt="Kids School" />
+                <img src={GameSky} alt="Game Sky" />
               </div>
               <div className="text">
-                <h4>Kids Zone</h4>
+                <h4>Game Sky</h4>
                 <p className="mb-1">
-                  It is a simple HTML page. Design to practice of HTML & CSS.
+                  It's a website page that gives the game information like
+                  Upcomming Games, Popular Games & New Games. Also gives the
+                  game details using the rawg api.
                 </p>
                 <div className="d-flex justify-content-between">
                   <div className="tech-use">
-                    <span>Html</span>
-                    <span>Css</span>
+                    <span>React Js</span>
+                    <span>JSX</span>
+                    <span>Styled Components</span>
                   </div>
                   <div className="tech-use">
                     <span>
                       <Link
-                        to="https://github.com/manishaprajapati-27/kids-school.git"
+                        to="https://github.com/manishaprajapati-27/game-sky.git"
                         target="_blank"
                       >
                         <FiGithub />
                       </Link>
                     </span>
-                    <span>
-                      <Link
-                        to="https://manishaprajapati-27.github.io/kids-school/"
-                        target="_blank"
-                      >
-                        <FiLink />
-                      </Link>
-                    </span>
+                    {/* <span>
+                                <Link to="#" target="_blank">
+                                  <FiLink />
+                                </Link>
+                              </span> */}
                   </div>
                 </div>
               </div>

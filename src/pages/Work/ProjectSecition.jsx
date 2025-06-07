@@ -104,9 +104,8 @@ const ProjectSecition = () => {
               <div className="text">
                 <h4>Ecommerce Website</h4>
                 <p className="mb-1">
-                  It is a Grocery shop e-commerce app. In this project, the
-                  admin adds products from the admin panel & user sees products
-                  and adds our products to the cart.
+                  An e-commerce app where the admin adds products and users can
+                  browse and add items to their cart.
                 </p>
                 <div className="d-flex justify-content-between">
                   <div className="tech-use">

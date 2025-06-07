@@ -28,6 +28,7 @@ import BizMLM from "../assets/images/office-project/biz-mlm.jpg";
 import Cprompt from "../assets/images/office-project/c-prompt.webp";
 import Drgaikwad from "../assets/images/office-project/dr-gaikwad.webp";
 import Soupherb from "../assets/images/office-project/soupherb.webp";
+import Akirhs from "../assets/images/office-project/akirhs.png";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -75,4 +76,5 @@ export {
   gsap,
   Drgaikwad,
   Soupherb,
+  Akirhs,
 };

@@ -20,21 +20,32 @@ const AboutSection = () => {
                 About Me <span></span>
               </h5>
               <h2 className="heading mb-1">
-                Designer <span>&</span> Developer <span>Based In Thane</span>
+                Web Designer <span>&</span> Front End Developer{" "}
+                <span>Based In Thane</span>
               </h2>
               <p className="mb-1">
-                I am a Frontend Developer. I live in Titwala.
-              </p>
-              <p className="mb-1">
-                I like to create new designs for websites. I enjoy working in
-                programming languages for developing websites. I try to create
-                design for websites that give the best experience to users. My
-                goal is to create and develop websites and applications that
-                fulfill all requirements of users.
+                I’m a passionate Front-End Developer based in Titwala, with a
+                strong interest in creating visually appealing and user-friendly
+                web experiences. I love transforming ideas and designs into
+                interactive, high-performing websites using modern technologies
+                like{" "}
+                <b>
+                  React.js, JavaScript, HTML5, CSS3, TailwindCSS, and Bootstrap.
+                </b>
               </p>
               <p className="mb-2">
-                I also like to listen to songs and watch videos on YouTube.
+                With every project, my goal is to build{" "}
+                <b>responsive, accessible, and intuitive interfaces</b> that
+                provide the best possible experience to users. I enjoy staying
+                updated with the latest trends in front-end development and
+                constantly strive to improve my skills and bring fresh, creative
+                ideas to the table.
               </p>
+              {/* <p className="mb-2">
+                Beyond coding, I enjoy designing website layouts, listening to
+                music, and exploring development tutorials and creative content
+                on YouTube to keep myself inspired and motivated.
+              </p> */}
               <Link
                 to="/about"
                 onClick={pageStart}
