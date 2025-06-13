@@ -63,7 +63,7 @@
     height: 100%;
     opacity: 0.6;
 
-    @media (max-width: v.$sm-breakpoint) {
+    @media (max-width: v.$md-breakpoint) {
       display: none;
     }
 
@@ -153,7 +153,9 @@
     //   // background: v.$secondary;
     //   // transform: skewX(-30deg);
     // }
-
+    @media (max-width: v.$md-breakpoint) {
+      justify-content: start !important;
+    }
     .image {
       position: relative;
       z-index: 2;
@@ -184,6 +186,10 @@
         z-index: 0;
         background: v.$dark-alt;
         border-radius: 10px;
+
+        @media (max-width: v.$sm-breakpoint) {
+          display: none;
+        }
       }
 
       img {
