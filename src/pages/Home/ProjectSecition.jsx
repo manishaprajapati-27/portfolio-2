@@ -134,14 +134,15 @@ const ProjectSecition = () => {
               <div className="text">
                 <h4>Game Sky</h4>
                 <p className="mb-1">
-                  It's a website page that gives the game information like
+                  It's a landing page that gives the game information like
                   Upcomming Games, Popular Games & New Games. Also gives the
-                  game details using the rawg api.
+                  game details using the rawg API.
                 </p>
                 <div className="d-flex justify-content-between">
                   <div className="tech-use">
                     <span>React Js</span>
                     <span>JSX</span>
+                    <span>Redux</span>
                     <span>Styled Components</span>
                   </div>
                   <div className="tech-use">

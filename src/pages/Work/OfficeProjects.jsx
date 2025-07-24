@@ -4,8 +4,6 @@ import { FiLink } from "react-icons/fi";
 import {
   Estate,
   Carmel,
-  Venue,
-  Venus,
   BizMLM,
   Cprompt,
   Drgaikwad,
@@ -21,7 +19,7 @@ const OfficeProjects = () => {
           Some Projects <span></span>
         </h5>
         <h2 className="heading mb-2">
-          Office <span>Projects</span> By Me
+          Professinal <span>Projects</span> By Me
         </h2>
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
