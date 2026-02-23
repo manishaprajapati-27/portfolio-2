@@ -95,7 +95,27 @@ const AboutSkillsInformation = () => {
                   </div>
                   <div className="col-10">
                     <div className="info">
-                      <h5>January 2024 - Present</h5>
+                      <h5>October 2025 - Present</h5>
+                      <h4>Precision Grow</h4>
+                      <p>
+                        Developed complete websites from scratch using React.js
+                        and WordPress, handling UI development and deployment.
+                        Collaborated closely with the CEO and senior
+                        stakeholders to deliver business-focused solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr className="my-2" />
+                <div className="row">
+                  <div className="col-2">
+                    <div className="icon">
+                      <FiBook />
+                    </div>
+                  </div>
+                  <div className="col-10">
+                    <div className="info">
+                      <h5>January 2024 - June 2025</h5>
                       <h4>DiigiiHost</h4>
                       <p>
                         Managed website maintenance and front-end development to
