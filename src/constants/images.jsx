@@ -29,6 +29,7 @@ import Cprompt from "../assets/images/office-project/c-prompt.webp";
 import Drgaikwad from "../assets/images/office-project/dr-gaikwad.webp";
 import Soupherb from "../assets/images/office-project/soupherb.webp";
 import Akirhs from "../assets/images/office-project/akirhs.png";
+import Palvi from "../assets/images/office-project/palvi.png";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -77,4 +78,5 @@ export {
   Drgaikwad,
   Soupherb,
   Akirhs,
+  Palvi,
 };
