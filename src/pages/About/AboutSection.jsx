@@ -3,9 +3,9 @@ import { aboutImage } from "../../constants/images";
 
 const AboutSection = () => {
   // const [move, setMove] = useState(false);
-  const pageStart = () => {
-    window.scrollTo(1, 1);
-  };
+  //   const pageStart = () => {
+  //     window.scrollTo(1, 1);
+  //   };
 
   return (
     <section className="section about">
