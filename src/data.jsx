@@ -7,6 +7,7 @@ import {
   Soupherb,
   Akirhs,
   Palvi,
+  Tuition,
 } from "./constants/images";
 
 export const officeProjectsData = [
@@ -57,5 +58,11 @@ export const officeProjectsData = [
     title: "Palvi Agrico",
     description: "Website Design & Develope",
     image: Palvi,
+  },
+  {
+    id: 9,
+    title: "Tuition Planet",
+    description: "Website Design & Develope",
+    image: Tuition,
   },
 ];

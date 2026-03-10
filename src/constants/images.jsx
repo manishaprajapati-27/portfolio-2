@@ -30,6 +30,7 @@ import Drgaikwad from "../assets/images/office-project/dr-gaikwad.webp";
 import Soupherb from "../assets/images/office-project/soupherb.webp";
 import Akirhs from "../assets/images/office-project/akirhs.png";
 import Palvi from "../assets/images/office-project/palvi.png";
+import Tuition from "../assets/images/office-project/tuition.png";
 
 // Skills
 import html from "../assets/images/skills/html.png";
@@ -79,4 +80,5 @@ export {
   Soupherb,
   Akirhs,
   Palvi,
+  Tuition,
 };
