@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import HeroImage from "../../assets/images/hero/hero.png";
 import SkewImage from "../../assets/images/hero/skew-hero.png";

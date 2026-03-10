@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "./Hero";
 import { motion } from "framer-motion";
 import AboutSection from "./AboutSection";

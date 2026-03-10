@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FaRegEnvelope, FaLinkedinIn, FaEnvelopeOpen } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";

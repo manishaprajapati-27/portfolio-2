@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FiGithub, FiLink } from "react-icons/fi";
 import { RealEsate, PortFolio1, Landing } from "../../constants/images";

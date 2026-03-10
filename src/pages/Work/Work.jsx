@@ -1,4 +1,3 @@
-import React from "react";
 import WorkHero from "./WorkHero";
 import ProjectSecition from "./ProjectSecition";
 import SmallProjectSection from "./SmallProjectSection";
