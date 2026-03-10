@@ -199,7 +199,7 @@
         object-position: 0 -30px;
         position: relative;
         z-index: 3;
-        filter: grayscale(1);
+        // filter: grayscale(1);
         transition: 0.5s all ease;
 
         &:hover {
@@ -338,6 +338,7 @@
 .small-project {
   .card {
     @include m.card-style;
+    height: 100%;
 
     .image {
       border-radius: 10px;

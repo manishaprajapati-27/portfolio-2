@@ -63,10 +63,10 @@ const AboutSection = () => {
               ></motion.div> */}
               <motion.div
                 className="image"
-                // animate={{ scale: 1 }}
-                // initial={{ scale: 0, opacity: 0 }}
-                // whileInView={{ scale: 1, opacity: 1 }}
-                // transition={{ duration: 0.7, delay: 0.7 }}
+                animate={{ scale: 1 }}
+                initial={{ scale: 0, opacity: 0 }}
+                whileInView={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.7, delay: 0.7 }}
               >
                 <img src={aboutImage} alt="Me Manisha" />
               </motion.div>

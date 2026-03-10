@@ -6,7 +6,7 @@ import heroImage from "../assets/images/hero/hero.png";
 import skewImage from "../assets/images/hero/skew-hero.png";
 
 // About
-import aboutImage from "../assets/images/about/about.jpeg";
+import aboutImage from "../assets/images/about/about.png";
 
 // Projects
 import IceCreamShop from "../assets/images/projects/ice-cream-shop.png";

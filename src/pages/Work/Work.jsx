@@ -8,8 +8,8 @@ const Work = () => {
     <div>
       <WorkHero />
       <ProjectSecition />
-      <SmallProjectSection />
       <OfficeProjects />
+      <SmallProjectSection />
     </div>
   );
 };
