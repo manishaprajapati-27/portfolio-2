@@ -22,6 +22,15 @@
     }
   }
 
+  @media (max-width: v.$md-breakpoint) and (min-width: v.$sm-breakpoint) {
+    height: 40vh;
+
+    .hero-image {
+      min-height: 600px;
+      height: 40vh;
+    }
+  }
+
   .patterns {
     // position: relative;
 
@@ -345,6 +354,7 @@
       overflow: hidden;
       margin-bottom: 15px;
       height: 200px;
+      display: block;
 
       //   @media (max-width: v.$md-breakpoint) {
       //   }

@@ -25,9 +25,9 @@ const OfficeProjects = ({ limit }) => {
             // <OfficeProjectCards key={project.id} data={project} />
             <div className="col-lg-4 col-md-6 col-sm-12" key={project.id}>
               <div className="card">
-                <div className="image">
+                <Link to={project.link} target="_blank" className="image">
                   <img src={project.image} alt={project.title} />
-                </div>
+                </Link>
                 <div className="text">
                   <h3>{project.title}</h3>
                   <h5>{project.subTitle}</h5>

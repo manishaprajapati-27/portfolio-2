@@ -5,6 +5,7 @@ import {
   Akirhs,
   Palvi,
   Tuition,
+  Rdv,
 } from "./constants/images";
 
 export const officeProjectsData = [
@@ -49,8 +50,18 @@ export const officeProjectsData = [
     description:
       "Converted Figma design into a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
   },
+
   {
     id: 6,
+    title: "RDV IT Solutions",
+    subTitle: "Website Development",
+    image: Rdv,
+    link: "https://www.rdvitsolution.com/",
+    description:
+      "Developed a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
+  },
+  {
+    id: 7,
     title: "Soupherb",
     subTitle: "Website Development",
     image: Soupherb,
@@ -59,7 +70,7 @@ export const officeProjectsData = [
       "Converted Figma design into a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
   },
   {
-    id: 7,
+    id: 8,
     title: "Akirhs",
     subTitle: "Website Development",
     image: Akirhs,
@@ -68,7 +79,7 @@ export const officeProjectsData = [
       "Converted Figma design into a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Palvi Agrico",
     subTitle: "Website Design & Development",
     image: Palvi,
@@ -77,7 +88,7 @@ export const officeProjectsData = [
       "Designed and developed an eCommerce website using WordPress and WooCommerce.",
   },
   {
-    id: 9,
+    id: 10,
     title: "Tuition Planet",
     subTitle: "Website Design & Development",
     image: Tuition,
