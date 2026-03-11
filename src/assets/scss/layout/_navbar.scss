@@ -65,7 +65,8 @@
         font-family: v.$sans-serif-alt;
         transition: 0.4s all ease;
 
-        &:hover {
+        &:hover,
+        &.active {
           color: v.$primary;
         }
       }

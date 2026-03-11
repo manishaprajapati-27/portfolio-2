@@ -15,10 +15,6 @@ export default function Navbar() {
     setNavToggle(false);
   };
 
-  //   const pageStart = () => {
-  //     window.scrollTo(1, 1);
-  //   };
-
   return (
     <motion.header
       className="header"
@@ -37,19 +33,44 @@ export default function Navbar() {
           <div
             className={navToggle ? "navbar-nav navbar-active" : "navbar-nav"}
           >
-            <NavLink to="/" className="nav-link" onClick={closeNav} exact>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+              onClick={closeNav}
+              exact
+            >
               Home
             </NavLink>
-            <NavLink to="/about" className="nav-link" onClick={closeNav}>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+              onClick={closeNav}
+            >
               About
             </NavLink>
-            <NavLink to="/work" className="nav-link" onClick={closeNav}>
+            <NavLink
+              to="/work"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+              onClick={closeNav}
+            >
               Work
             </NavLink>
-            {/* <NavLink to="/post" className="nav-link" onClick={closeNav}>
+            {/* <NavLink to="/post" className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")} onClick={closeNav}>
               Blog Post
             </NavLink> */}
-            <NavLink to="/contact" className="nav-link" onClick={closeNav}>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+              onClick={closeNav}
+            >
               Contact
             </NavLink>
             <Link

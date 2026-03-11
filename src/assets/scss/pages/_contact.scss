@@ -20,6 +20,11 @@
     }
   }
 
+  .success-message {
+    color: v.$primary;
+    font-weight: 600;
+  }
+
   .info {
     .info-card {
       h5 {

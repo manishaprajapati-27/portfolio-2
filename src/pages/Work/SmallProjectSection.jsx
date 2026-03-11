@@ -19,7 +19,6 @@ const SmallProjectSection = () => {
       title: "Landing Page",
       subTitle: "Website Design & Development",
       image: Landing,
-      link: "https://akirhs.com/",
       github: "https://github.com/manishaprajapati-27/landing-page.git",
       description:
         "It is a Landing page created in html, css and boostrap for practice of design and develop websites.",
@@ -56,9 +55,11 @@ const SmallProjectSection = () => {
                   <h3>{project.title}</h3>
                   <h5>{project.subTitle}</h5>
                   <div className="link-btns">
-                    <Link to={project.link} target="_blank" className="arrow">
-                      <FiLink />
-                    </Link>
+                    {project.link && (
+                      <Link to={project.link} className="arrow" target="_blank">
+                        <FiLink />
+                      </Link>
+                    )}
                     <Link to={project.github} className="arrow" target="_blank">
                       <FiGithub />
                     </Link>

@@ -2,8 +2,36 @@ import { Link } from "react-router-dom";
 import { FaEnvelopeOpen, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { IoIosSend } from "react-icons/io";
+import { useState } from "react";
 
 const ContactSection = () => {
+  const [input, setInput] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handleChange = (e) => {
+    setInput({ ...input, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(input);
+    setInput({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+    setShowMessage(true);
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 7000);
+  };
+
   return (
     <section className="section contact">
       <div className="container">
@@ -66,7 +94,7 @@ const ContactSection = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <form action="" className="form">
+            <form onSubmit={handleSubmit} className="form">
               <div className="mb-1">
                 <input
                   type="text"
@@ -74,6 +102,8 @@ const ContactSection = () => {
                   name="name"
                   className="form-control"
                   placeholder="Full Name"
+                  value={input.name}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -84,6 +114,8 @@ const ContactSection = () => {
                   name="email"
                   className="form-control"
                   placeholder="Email"
+                  value={input.email}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -94,6 +126,8 @@ const ContactSection = () => {
                   name="phone"
                   className="form-control"
                   placeholder="Mobile Number"
+                  value={input.phone}
+                  onChange={handleChange}
                   required
                 />
               </div>
@@ -104,6 +138,8 @@ const ContactSection = () => {
                   rows="4"
                   className="form-control"
                   placeholder="Write Message"
+                  value={input.message}
+                  onChange={handleChange}
                   required
                 ></textarea>
               </div>
@@ -113,6 +149,11 @@ const ContactSection = () => {
                   <IoIosSend />
                 </span>
               </button>
+              {showMessage && (
+                <p className="success-message mt-1">
+                  Your message has been sent successfully!
+                </p>
+              )}
             </form>
           </div>
         </div>
