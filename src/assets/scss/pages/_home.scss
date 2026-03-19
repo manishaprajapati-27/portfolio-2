@@ -21,7 +21,6 @@
       opacity: 0.5;
     }
   }
-
   @media (max-width: v.$md-breakpoint) and (min-width: v.$sm-breakpoint) {
     height: 40vh;
 
@@ -84,11 +83,16 @@
 
   .text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 100px;
     transform: translateY(-50%);
-    max-width: 450px;
+    max-width: 560px;
     z-index: 8;
+
+    p {
+      font-weight: 400;
+      font-size: 17px;
+    }
 
     @media (max-width: v.$lg-breakpoint) {
       left: 30px;

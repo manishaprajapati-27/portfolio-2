@@ -1,5 +1,5 @@
 import AboutHero from "./AboutHero";
-import AboutSection from "./AboutSection";
+import AboutSection from "../Home/AboutSection";
 import AboutSkillsInformation from "./AboutSkillsInformation";
 
 const Home = () => {

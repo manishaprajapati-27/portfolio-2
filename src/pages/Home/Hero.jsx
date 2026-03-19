@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { heroImage, skewImage } from "../../constants/images";
+import { Link } from "react-router-dom";
+import { FaChevronRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -33,6 +35,29 @@ const Hero = () => {
           {" "}
           <span>Manisha Prajapati Web Designer & Developer</span>
         </motion.h2>
+        <motion.div
+          animate={{ x: 0, opacity: 1 }}
+          initial={{ x: -80, opacity: 0 }}
+          transition={{ type: "tween", duration: 1, delay: 4 }}
+        >
+          <p className="my-1">
+            I am a passionate web designer and front end developer with a knack
+            for creating visually stunning and user-friendly websites.
+          </p>
+        </motion.div>
+        <motion.div
+          animate={{ x: 0, opacity: 1 }}
+          initial={{ x: -80, opacity: 0 }}
+          transition={{ type: "tween", duration: 1, delay: 5 }}
+        >
+          {" "}
+          <Link to="/about" className="button-arrow mt-2">
+            <span>Know More</span>
+            <span className="icon">
+              <FaChevronRight />
+            </span>
+          </Link>
+        </motion.div>
       </div>
     </section>
   );

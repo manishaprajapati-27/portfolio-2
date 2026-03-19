@@ -12,6 +12,12 @@ const ContactSection = () => {
     message: "",
   });
   const [showMessage, setShowMessage] = useState(false);
+  const [error, setError] = useState({
+    name: "",
+    email: "",  
+    phone: "",
+    message: "",
+  });
 
   const handleChange = (e) => {
     setInput({ ...input, [e.target.name]: e.target.value });
@@ -20,12 +26,46 @@ const ContactSection = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(input);
+
+    let errorMessage = {
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    };
+
+    // setError({ ...error, name: "", email: "", phone: "", message: "" });
+
+    if (!/\S+@\S+\.\S+/.test(input.email)) {
+      errorMessage.email = "Please enter a valid email address.";
+    }
+    if (!/^\d{10}$/.test(input.phone)) {
+      errorMessage.phone = "Please enter a valid 10-digit phone number.";
+    }
+    if (input.name === "") {
+      errorMessage.name = "Please enter your name.";
+    }
+    if (input.message === "") {
+      errorMessage.message = "Please enter your message.";
+    }
+    setError(errorMessage);
+
+    if (
+      errorMessage.name ||
+      errorMessage.email ||
+      errorMessage.phone ||
+      errorMessage.message
+    ) {
+      return;
+    }
+
     setInput({
       name: "",
       email: "",
       phone: "",
       message: "",
     });
+
     setShowMessage(true);
     setTimeout(() => {
       setShowMessage(false);
@@ -104,9 +144,9 @@ const ContactSection = () => {
                   placeholder="Full Name"
                   value={input.name}
                   onChange={handleChange}
-                  required
                 />
               </div>
+              {error.name && <p className="error-message mb-1">{error.name}</p>}
               <div className="mb-1">
                 <input
                   type="email"
@@ -116,9 +156,11 @@ const ContactSection = () => {
                   placeholder="Email"
                   value={input.email}
                   onChange={handleChange}
-                  required
                 />
               </div>
+              {error.email && (
+                <p className="error-message mb-1">{error.email}</p>
+              )}
               <div className="mb-1">
                 <input
                   type="phone"
@@ -128,10 +170,12 @@ const ContactSection = () => {
                   placeholder="Mobile Number"
                   value={input.phone}
                   onChange={handleChange}
-                  required
                 />
               </div>
-              <div className="mb-2">
+              {error.phone && (
+                <p className="error-message mb-1">{error.phone}</p>
+              )}
+              <div className="mb-1">
                 <textarea
                   name="message"
                   id="message"
@@ -140,9 +184,11 @@ const ContactSection = () => {
                   placeholder="Write Message"
                   value={input.message}
                   onChange={handleChange}
-                  required
                 ></textarea>
               </div>
+              {error.message && (
+                <p className="error-message mb-2">{error.message}</p>
+              )}
               <button type="submit" className="button-arrow">
                 <span>Send Message</span>
                 <span className="icon">

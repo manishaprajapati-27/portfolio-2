@@ -1,10 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FaChevronRight } from "react-icons/fa";
 import { aboutImage } from "../../constants/images";
+import { FaChevronRight } from "react-icons/fa";
 
 const AboutSection = () => {
   // const [move, setMove] = useState(false);
+  const location = useLocation();
   const pageStart = () => {
     window.scrollTo(1, 1);
   };
@@ -23,39 +24,40 @@ const AboutSection = () => {
                 <span>Based In Thane</span>
               </h2>
               <p className="mb-1">
-                I’m a passionate Front-End Developer based in Titwala, with a
-                strong interest in creating visually appealing and user-friendly
-                web experiences. I love transforming ideas and designs into
-                interactive, high-performing websites using modern technologies
-                like{" "}
+                I specialize in building responsive, user-friendly, and
+                high-performance websites using{" "}
                 <b>
-                  React.js, JavaScript, HTML5, CSS3, TailwindCSS, and Bootstrap.
+                  React.js, JavaScript, HTML, CSS, TailwindCSS, Bootstrap, and
+                  WordPress.
                 </b>
               </p>
               <p className="mb-2">
-                With every project, my goal is to build{" "}
-                <b>responsive, accessible, and intuitive interfaces</b> that
-                provide the best possible experience to users. I enjoy staying
-                updated with the latest trends in front-end development and
-                constantly strive to improve my skills and bring fresh, creative
-                ideas to the table.
+                I focus on{" "}
+                <b>
+                  creating clean UI, smooth user experiences, and turning ideas
+                  into real, impactful digital products
+                </b>
+                . Always learning, improving, and staying updated with modern
+                web technologies.
               </p>
               {/* <p className="mb-2">
                 Beyond coding, I enjoy designing website layouts, listening to
                 music, and exploring development tutorials and creative content
                 on YouTube to keep myself inspired and motivated.
               </p> */}
-              <Link
-                to="/about"
-                onClick={pageStart}
-                type="button"
-                className="button-arrow"
-              >
-                <span>Read More</span>
-                <span className="icon">
-                  <FaChevronRight />
-                </span>
-              </Link>
+              {location.pathname === "/" && (
+                <Link
+                  to="/about"
+                  onClick={pageStart}
+                  type="button"
+                  className="button-arrow"
+                >
+                  <span>Read More</span>
+                  <span className="icon">
+                    <FaChevronRight />
+                  </span>
+                </Link>
+              )}
             </motion.div>
           </div>
           <div className="col-lg-6 col-md-12 col-sm-12">
