@@ -58,7 +58,7 @@ export const officeProjectsData = [
     image: Rdv,
     link: "https://www.rdvitsolution.com/",
     description:
-      "Developed a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
+      "Converted Figma design into a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const officeProjectsData = [
     image: Soupherb,
     link: "https://soupherb.org/",
     description:
-      "Converted Figma design into a responsive website using HTML, CSS, JavaScript, Bootstrap, and GSAP.",
+      "Converted Figma design into a responsive website using HTML, SCSS, JavaScript, Bootstrap, and GSAP.",
   },
   {
     id: 8,
