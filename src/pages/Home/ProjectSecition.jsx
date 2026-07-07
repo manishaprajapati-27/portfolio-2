@@ -19,7 +19,7 @@ const ProjectSecition = () => {
         </h2>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12">
-            <div className="project-info">
+            <div className="project-info active">
               <div className="image">
                 <img src={IceCreamShop} alt="Ice Cream Shop" />
               </div>

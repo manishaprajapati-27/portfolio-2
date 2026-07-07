@@ -325,7 +325,8 @@
       }
     }
 
-    &:hover {
+    &:hover,
+    &.active {
       .text {
         // bottom: 25px;
         opacity: 1;
