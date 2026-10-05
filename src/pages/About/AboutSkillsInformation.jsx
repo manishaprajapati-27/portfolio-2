@@ -94,7 +94,7 @@ const AboutSkillsInformation = () => {
                   </div>
                   <div className="col-10">
                     <div className="info">
-                      <h5>October 2025 - Present</h5>
+                      <h5>October 2025 - March 2026</h5>
                       <h4>Precision Grow</h4>
                       <p>
                         Developed complete websites from scratch using React.js
@@ -137,35 +137,10 @@ const AboutSkillsInformation = () => {
                   </div>
                   <div className="col-10">
                     <div className="info">
-                      <h5>June 2023 - January 2024</h5>
+                      <h5>June 2022 - Dec 2023</h5>
                       <h4>Biz Technology IT Solutions Limited</h4>
                       <p>
-                        My Job Role in this company is Web designer and
-                        developer. In this company, I create websites. I
-                        maintain and build websites and dashboards according to
-                        the client's requirements. I Collaborate with backend
-                        developers and develop designs.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <hr className="my-2" />
-                <div className="row">
-                  <div className="col-2">
-                    <div className="icon">
-                      <FiBook />
-                    </div>
-                  </div>
-                  <div className="col-10">
-                    <div className="info">
-                      <h5>September 2022 - June 2023</h5>
-                      <h4>Parasight Solutions</h4>
-                      <p>
-                        It was my first job as a Website Designer. In this
-                        company, I learned some new tools. My work in this
-                        company was to create layouts in Figma and Develop them
-                        into HTML, CSS, and JS. I also collaborated with backend
-                        developers to develop and maintain designs.
+                        My role in the company is Web Designer and Developer. I create, maintain, and develop websites and dashboards based on client requirements. I design website layouts and interfaces in Figma and then transform them into responsive, pixel-perfect websites using modern web technologies. I collaborate with backend developers and other team members to ensure seamless integration and deliver user-friendly, responsive web solutions.
                       </p>
                     </div>
                   </div>
