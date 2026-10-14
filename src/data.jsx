@@ -6,6 +6,7 @@ import {
   Palvi,
   Tuition,
   Rdv,
+  BizMLM,
 } from "./constants/images";
 
 export const officeProjectsData = [
@@ -27,13 +28,15 @@ export const officeProjectsData = [
     description:
       "Designed and developed a responsive corporate website for Carmel Maritime using HTML, CSS, and JavaScript.",
   },
-  //   {
-  //     id: 3,
-  //     title: "Biz MLM",
-  //     subTitle: "Website Design & Develope",
-  //     image: BizMLM,
-  //     link: "https://bizmlm.com/",
-  //   },
+    {
+      id: 3,
+      title: "Biz MLM",
+      subTitle: "Website Design & Develope",
+      image: BizMLM,
+      link: "https://bizmlm.in/",
+      description:
+      "Designed and developed a responsive website using HTML, CSS, and JavaScript, focusing on a clean UI and user-friendly experience.",
+    },
   //   {
   //     id: 4,
   //     title: "Cprompt",
